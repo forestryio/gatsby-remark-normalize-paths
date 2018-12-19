@@ -37,7 +37,7 @@
     "test": "jest",
     "build": "cross-env BABEL_ENV=production babel src --out-dir .",
     "lint": "eslint --ext .js src",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "husky": {
     "hooks": {
